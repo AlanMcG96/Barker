@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.alan.barker.SearchDog"
+    tools:showIn="@layout/activity_search_dog">
+
+    <LinearLayout android:layout_height="fill_parent"
+        android:layout_width="fill_parent"
+        android:padding="@dimen/activity_horizontal_margin"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@color/colorPrimaryDark">
+
+        <ImageView
+            android:layout_height="@dimen/logo_w_h"
+            android:layout_width="@dimen/logo_w_h"
+            android:src="@mipmap/ic_launcher"
+            android:layout_marginBottom="30dp"
+            android:layout_gravity="center_horizontal"/>
+
+
+        -<android.support.design.widget.TextInputLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+        <EditText
+            android:id="@+id/breedForSearch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/hint_breed"
+            android:inputType="textPersonName"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:textColor="@android:color/white" />
+    </android.support.design.widget.TextInputLayout>
+        <Button
+            android:id="@+id/btn_search_dog"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:background="@color/colorAccent"
+            android:textColor="@android:color/black"
+            android:text="@string/action_search_dog"/>
+
+
+    </LinearLayout>
+
+
+</android.support.design.widget.CoordinatorLayout>

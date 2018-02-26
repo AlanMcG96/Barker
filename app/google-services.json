@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "670178650978",
+    "firebase_url": "https://barker-f1d10.firebaseio.com",
+    "project_id": "barker-f1d10",
+    "storage_bucket": "barker-f1d10.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:670178650978:android:f1edec067c2d0caa",
+        "android_client_info": {
+          "package_name": "com.example.alan.barker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "670178650978-e368gtegp69eukbeisaveurebf607qbp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.alan.barker",
+            "certificate_hash": "94170c9465cd30282279e336008b359fced89534"
+          }
+        },
+        {
+          "client_id": "670178650978-50ocfcsnemv8a0l3ff5ov1vbgg8js1u9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBt-p3Krhainh0zGN0k-PjgvDvwS5ax75c"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "670178650978-50ocfcsnemv8a0l3ff5ov1vbgg8js1u9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
